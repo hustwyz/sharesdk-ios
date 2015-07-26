@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/hustwyz/sharesdk-ios.git',
         :tag => '3.0.0'
     }
-    s.source_files = 'extends/QQSDK/*.{h,m}', 'extends/SinaWeiboSDK/*.{h,m}', 'extends/WeChatSDK/*.{h,m}}'
+    s.source_files = 'extends/QQSDK/*.{h,m}', 'extends/SinaWeiboSDK/*.{h,m}', 'extends/WeChatSDK/*.{h,m}'
     s.resources = '*.bundle', 'extends/QQSDK/*.bundle', 'extends/SinaWeiboSDK/*.bundle', 'extends/WeChatSDK/*.bundle'
     s.vendored_frameworks = '*.framework', 'extends/QQSDK/*.framework', 'extends/SinaWeiboSDK/*.framework', 'extends/WeChatSDK/*.framework'
     s.vendored_libraries = 'extends/QQSDK/*.a', 'extends/SinaWeiboSDK/*.a', 'extends/WeChatSDK/*.a'
