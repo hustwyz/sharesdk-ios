@@ -71,9 +71,21 @@ typedef NS_ENUM(NSUInteger, SSDKPlatformType){
      */
     SSDKPlatformTypeTencentWeibo        = 2,
     /**
+     *  豆瓣
+     */
+    SSDKPlatformTypeDouBan              = 5,
+    /**
      *  QQ空间
      */
     SSDKPlatformSubTypeQZone            = 6,
+    /**
+     *  人人网
+     */
+    SSDKPlatformTypeRenren              = 7,
+    /**
+     *  开心网
+     */
+    SSDKPlatformTypeKaixin              = 8,
     /**
      *  Facebook
      */
@@ -82,6 +94,22 @@ typedef NS_ENUM(NSUInteger, SSDKPlatformType){
      *  Twitter
      */
     SSDKPlatformTypeTwitter             = 11,
+    /**
+     *  Google+
+     */
+    SSDKPlatformTypeGooglePlus          = 14,
+    /**
+     *  邮件
+     */
+    SSDKPlatformTypeMail                = 18,
+    /**
+     *  短信
+     */
+    SSDKPlatformTypeSMS                 = 19,
+    /**
+     *  拷贝
+     */
+    SSDKPlatformTypeCopy                = 21,
     /**
      *  微信好友
      */
@@ -94,6 +122,10 @@ typedef NS_ENUM(NSUInteger, SSDKPlatformType){
      *  QQ好友
      */
     SSDKPlatformSubTypeQQFriend         = 24,
+    /**
+     *  Pocket
+     */
+    SSDKPlatformTypePocket              = 26,
     /**
      *  微信收藏
      */
@@ -162,34 +194,40 @@ typedef NS_ENUM(NSUInteger, SSDKResponseState){
 typedef NS_ENUM(NSUInteger, SSDKContentType){
     
     /**
+     *  自动适配类型，视传入的参数来决定
+     */
+    SSDKContentTypeAuto         = 0,
+    
+    /**
      *  文本
      */
-    SSDKContentTypeText         = 0,
+    SSDKContentTypeText         = 1,
     
     /**
      *  图片
      */
-    SSDKContentTypeImage        = 1,
+    SSDKContentTypeImage        = 2,
     
     /**
      *  网页
      */
-    SSDKContentTypeWebPage      = 2,
+    SSDKContentTypeWebPage      = 3,
     
     /**
      *  应用
      */
-    SSDKContentTypeApp          = 3,
+    SSDKContentTypeApp          = 4,
     
     /**
      *  音频
      */
-    SSDKContentTypeAudio        = 4,
+    SSDKContentTypeAudio        = 5,
     
     /**
      *  视频
      */
-    SSDKContentTypeVideo        = 5,
+    SSDKContentTypeVideo        = 6,
+
 };
 
 /**
