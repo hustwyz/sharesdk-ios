@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
     s.name          = 'sharesdk-ios'
-    s.version       = '3.0.0'
+    s.version       = '3.1.0'
     s.summary       = 'tae sdk lib'
     s.homepage      = 'https://github.com/hustwyz/sharesdk-ios'
     s.author        = { 'Wang Yunzhen' => 'hustwyz@gmail.com' }
     s.platform      = :ios, '6.0'
     s.source        = {
         :git => 'https://github.com/hustwyz/sharesdk-ios.git',
-        :tag => '3.0.0'
+        :tag => '3.1.0'
     }
     s.source_files = 'extends/QQSDK/*.{h,m}', 'extends/SinaWeiboSDK/*.{h,m}', 'extends/WeChatSDK/*.{h,m}'
     s.resources = '*.bundle', 'extends/QQSDK/*.bundle', 'extends/SinaWeiboSDK/*.bundle', 'extends/WeChatSDK/*.bundle'
